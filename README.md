@@ -6,5 +6,5 @@ There were also missing values in a column, which on closer obervation,can be fi
 One of the feature, contained more than 25% of missing values, and didn't seem to be possible to fill exactly, so it was dropped.
 Label Encoding was done on the categorical features.
 Some basic models and ensemble models were used, and attempts were made to improve predictions by feature selection
-Since this is a regression taskm, chi squared and annova wont work.
+Since this is a regression task, chi squared and annova wont work.
 RFE was also tried and yeilded the maximum performance. 
